@@ -1,0 +1,26 @@
+{
+  "name": "website-passgen",
+  "version": "1.0.0",
+  "description": "Website desenvolvido por volta da data 17/02/2023",
+  "author": "Afonso Coutinho",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node server.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^4.1.0"
+  }
+}
